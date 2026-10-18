@@ -13,7 +13,7 @@ services:
   application:
     image: application123:v10
     ports:
-      - "1111:8080"
+      - "1112:8080"
     deploy:
       replicas: 3
     depends_on:
