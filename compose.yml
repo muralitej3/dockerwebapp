@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: chakalimurali/db:v3
+    image: database123:v10
     ports:
       - "3306:3306"
     deploy:
@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: chakalimurali/app:v3
+    image: application123:v10
     ports:
       - "1111:8080"
     deploy:
